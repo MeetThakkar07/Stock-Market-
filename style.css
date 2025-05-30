@@ -1,0 +1,202 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px 0;
+	background:url(images/gradient-stock-market-concept_23-2149166910.avif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+body, th, td, input, textarea {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+
+input, textarea {
+	font-weight: bold;
+}
+
+input.text {
+	padding: 2px 5px;
+	background: #7e7e7b;
+	border-top: 1px solid #4D5719;
+	border-left: 1px solid #4D5719;
+	border-right: 1px solid #626456;
+	border-bottom: 1px solid #626456;
+}
+
+input.button {
+	background: #3C7BCF;
+	border-top: 1px solid #3C7BCF;
+	border-left: 1px solid #3C7BCF;
+	border-right: 1px solid #3C7BCF;
+	border-bottom: 1px solid #3C7BCF;
+	color: #FFFFFF;
+}
+
+h1, h2, h3 {
+	margin-top: 1.5em;
+	color: #626456;
+}
+
+h1 {
+	letter-spacing: -.075em;
+	font-size: 50px;
+	font-style: italic;
+	color: rgb(231, 14, 14);
+}
+
+h2 {
+	letter-spacing: -.05em;
+	text-transform: uppercase;
+	font-size: 1.9em;
+	font-weight: bold;
+	color: #0742f2;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	margin-top: 1.5em;
+	line-height: 1.8em;
+	font-size: 1.4em;
+	font-color:blue;
+	
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+li{
+	color: black;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	text-decoration: none;
+	color: #3C7BCF;
+}
+
+a:hover {
+	border: none;
+}
+
+h1 a, h2 a, h3 a {
+	border: none;
+	text-decoration: none;
+	color: #626456;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	background: none;
+	color: #3C7BCF;
+}
+
+hr {
+	display: none;
+}
+em{
+	text-align: center;
+	color: burlywood;
+	font-size: 24px;
+}
+
+
+/* Header */
+
+#header {
+	width: 990px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+#menu {
+	float: left;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 25px;
+	margin-left: 30px;
+	padding: 10px 20px 0 20px;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+}
+
+	#menu a:hover {
+	background:  #F3F3F3;
+	color: #2C2E22;
+}
+
+
+
+/* Logo */
+
+#logo {
+	width: 978px;
+	height: 200px;
+	margin: 0 auto;
+	height: 263px;
+	border: 20px solid #eee3e3;
+}
+
+
+/* Page */
+	
+#page {
+	width: 980px;
+	background-image: 200px 200px right url(images/images\ \(3\).jpeg);
+	margin: 0 auto;
+	padding: 20px 0px 0 0px;
+	background: #FFFFFF;
+	border: 20px solid #F3F3F3;
+	border-top: none;
+}
+	
+/* Content */
+
+#content {
+	float: right;
+	width: 425px;
+	font-size: medium;
+	font-style: italic;
+	text-align: center;
+	padding: 0px 0px 0px 20px;
+	font-style: oblique;
+}
+
+
+/* Footer */
+
+#footer {
+	text-align: center;
+	font-size: 9px;
+}
